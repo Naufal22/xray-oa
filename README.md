@@ -9,7 +9,7 @@ Model difine-tune untuk 3 kelas: **Healthy, Moderate, Severe**.
 Coba aplikasi interaktif langsung di Hugging Face Spaces:  
 👉 [Demo Hugging Face](https://huggingface.co/spaces/Monti22/xray-oa)
 
-🖼️
+![Demo](images/demo-xray-oa.png)
 
 
 
@@ -50,10 +50,9 @@ Notebook utama berisi seluruh proses eksperimen:
 Selama training, akurasi train dan validasi meningkat stabil. Tidak ada tanda *overfitting* signifikan.  
 - **Best Test Accuracy:** **93.06%**
 
-🖼️ *[Sisipkan grafik training vs validation (accuracy & loss) di sini]*  
+![Training/Loss](images/grafik-cost.png)
+![Accuracy/Score](images/grafik-score.png)
 
-(images/grafik-cost.png)
-(images/grafik-score.png)
 
 ---
 
@@ -74,16 +73,16 @@ Selama training, akurasi train dan validasi meningkat stabil. Tidak ada tanda *o
 - Kelas **Moderate** paling sulit, banyak salah ke Healthy/Severe.  
 - Kelas **Severe** lumayan stabil walau jumlah data kecil.  
 
-(images/confussion-matrix.png)
 
+![Confussion Matrix](images/confussion-matrix.png)
 ---
 
 ## 📸 Visualisasi Prediksi
 Contoh hasil prediksi model di test set (warna hijau = benar, merah = salah).  
 
-🖼️ *[Sisipkan gambar sample prediksi di sini]*  
 
-(images/testing.png)
+![Prediksi](images/testing.png)
+
 
 ---
 
